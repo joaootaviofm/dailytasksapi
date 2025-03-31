@@ -20,10 +20,10 @@ public class Task {
     private UUID id;
 
     @Column(name = "task")
-    private String taskName;
+    private String task;
 
     @Column(name = "description")
-    private String taskDescription;
+    private String description;
 
     @Column(name = "priority")
     private int priority;
